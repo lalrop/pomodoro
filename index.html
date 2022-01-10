@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    
+</head>
+<body class="container">
+    <div class="d-flex justify-content-center">
+        <div>
+            <label>Minutos del pomodoro</label><input type="number" name="timer" id="inputTimer">
+        </div><br>
+        <div>
+            <label>Tiempo descanso</label><input type="number" name="timer" id="inputResTimer">
+        </div>
+        
+        
+        <div class="row">
+            <button id="start">Empezar</button>
+            <button id="pause">Pausar</button>
+            <button id="stop">Detener</button>
+            <button id="reset">Resetear</button>
+        </div>
+        <p id="cronometer" style="color: brown;">00:25:00</p>
+        <p id="restCronometer" style="color: aqua;">00:05:00</p>
+    </div>
+    
+
+    <script src="/home/luis/Proyectos/pomodoro/easytimer.js-master/dist/easytimer.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
